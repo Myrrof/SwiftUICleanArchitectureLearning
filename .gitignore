@@ -1,0 +1,49 @@
+# Fichiers de l'utilisateur Xcode
+xcuserdata/
+
+# Fichiers de configuration du projet
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+# Fichiers de l'espace de travail Xcode
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+
+# Fichiers de sauvegarde automatique de Xcode
+*.xcscmblueprint
+
+# Fichiers d'état de l'utilisateur Xcode
+*.xcuserstate
+
+# Dossier de build
+build/
+DerivedData/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build
+
+# Swift Package Manager
+.build/
+
+# Fichiers OSX
+.DS_Store
+
+# Fichiers temporaires
+*.swp
+*~.nib
+
+# Fichiers d'archive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Fichiers de configuration de l'outil
+.swiftpm/
+.swiftlint.yml
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output

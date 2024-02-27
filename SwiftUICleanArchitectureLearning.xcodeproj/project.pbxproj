@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		311B16E22B8C943100DEB724 /* HomePage in Frameworks */ = {isa = PBXBuildFile; productRef = 311B16E12B8C943100DEB724 /* HomePage */; };
+		311B16E52B8CCA9400DEB724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B16E42B8CCA9400DEB724 /* AppDelegate.swift */; };
+		311B16E72B8CCB1600DEB724 /* DependencyInjection in Frameworks */ = {isa = PBXBuildFile; productRef = 311B16E62B8CCB1600DEB724 /* DependencyInjection */; };
 		312706022B6D41A800E4B6DD /* SwiftUICleanArchitectureLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312706012B6D41A800E4B6DD /* SwiftUICleanArchitectureLearningApp.swift */; };
-		312706042B6D41A800E4B6DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312706032B6D41A800E4B6DD /* ContentView.swift */; };
 		312706062B6D41AA00E4B6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312706052B6D41AA00E4B6DD /* Assets.xcassets */; };
 		312706092B6D41AA00E4B6DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312706082B6D41AA00E4B6DD /* Preview Assets.xcassets */; };
+		315F6E642B8CE48600CAC41D /* RunningContext in Frameworks */ = {isa = PBXBuildFile; productRef = 315F6E632B8CE48600CAC41D /* RunningContext */; };
+		3176707B2B6E4F79004367B5 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = 3176707A2B6E4F79004367B5 /* Data */; };
+		319886C32B88ADAF00B5340A /* Fact in Frameworks */ = {isa = PBXBuildFile; productRef = 319886C22B88ADAF00B5340A /* Fact */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		317670A92B6E90A7004367B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		311B16E02B8C918600DEB724 /* HomePage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HomePage; sourceTree = "<group>"; };
+		311B16E32B8CC5B700DEB724 /* DependencyInjection */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DependencyInjection; sourceTree = "<group>"; };
+		311B16E42B8CCA9400DEB724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		312705FE2B6D41A800E4B6DD /* SwiftUICleanArchitectureLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICleanArchitectureLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		312706012B6D41A800E4B6DD /* SwiftUICleanArchitectureLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICleanArchitectureLearningApp.swift; sourceTree = "<group>"; };
-		312706032B6D41A800E4B6DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		312706052B6D41AA00E4B6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		312706082B6D41AA00E4B6DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		315F6E622B8CE40700CAC41D /* RunningContext */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RunningContext; sourceTree = "<group>"; };
+		317670BB2B6E9D42004367B5 /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
+		319886C12B88A91A00B5340A /* Fact */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Fact; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319886C32B88ADAF00B5340A /* Fact in Frameworks */,
+				311B16E72B8CCB1600DEB724 /* DependencyInjection in Frameworks */,
+				3176707B2B6E4F79004367B5 /* Data in Frameworks */,
+				311B16E22B8C943100DEB724 /* HomePage in Frameworks */,
+				315F6E642B8CE48600CAC41D /* RunningContext in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +65,7 @@
 			children = (
 				312706002B6D41A800E4B6DD /* SwiftUICleanArchitectureLearning */,
 				312705FF2B6D41A800E4B6DD /* Products */,
+				319886B92B889D7400B5340A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +80,11 @@
 		312706002B6D41A800E4B6DD /* SwiftUICleanArchitectureLearning */ = {
 			isa = PBXGroup;
 			children = (
-				312706012B6D41A800E4B6DD /* SwiftUICleanArchitectureLearningApp.swift */,
-				312706032B6D41A800E4B6DD /* ContentView.swift */,
+				317670882B6E8F5C004367B5 /* App */,
+				317670BB2B6E9D42004367B5 /* Data */,
+				317670892B6E8F9B004367B5 /* Core */,
+				317670862B6E8F33004367B5 /* Feature */,
+				317670852B6E8F24004367B5 /* Domain */,
 				312706052B6D41AA00E4B6DD /* Assets.xcassets */,
 				312706072B6D41AA00E4B6DD /* Preview Content */,
 			);
@@ -67,6 +99,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		317670852B6E8F24004367B5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				319886C12B88A91A00B5340A /* Fact */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		317670862B6E8F33004367B5 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				311B16E02B8C918600DEB724 /* HomePage */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		317670882B6E8F5C004367B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				312706012B6D41A800E4B6DD /* SwiftUICleanArchitectureLearningApp.swift */,
+				311B16E42B8CCA9400DEB724 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		317670892B6E8F9B004367B5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				315F6E622B8CE40700CAC41D /* RunningContext */,
+				311B16E32B8CC5B700DEB724 /* DependencyInjection */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		319886B92B889D7400B5340A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +150,20 @@
 				312705FA2B6D41A800E4B6DD /* Sources */,
 				312705FB2B6D41A800E4B6DD /* Frameworks */,
 				312705FC2B6D41A800E4B6DD /* Resources */,
+				317670A92B6E90A7004367B5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftUICleanArchitectureLearning;
+			packageProductDependencies = (
+				3176707A2B6E4F79004367B5 /* Data */,
+				319886C22B88ADAF00B5340A /* Fact */,
+				311B16E12B8C943100DEB724 /* HomePage */,
+				311B16E62B8CCB1600DEB724 /* DependencyInjection */,
+				315F6E632B8CE48600CAC41D /* RunningContext */,
+			);
 			productName = SwiftUICleanArchitectureLearning;
 			productReference = 312705FE2B6D41A800E4B6DD /* SwiftUICleanArchitectureLearning.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,8 @@
 				Base,
 			);
 			mainGroup = 312705F52B6D41A800E4B6DD;
+			packageReferences = (
+			);
 			productRefGroup = 312705FF2B6D41A800E4B6DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312706042B6D41A800E4B6DD /* ContentView.swift in Sources */,
+				311B16E52B8CCA9400DEB724 /* AppDelegate.swift in Sources */,
 				312706022B6D41A800E4B6DD /* SwiftUICleanArchitectureLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +427,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		311B16E12B8C943100DEB724 /* HomePage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomePage;
+		};
+		311B16E62B8CCB1600DEB724 /* DependencyInjection */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DependencyInjection;
+		};
+		315F6E632B8CE48600CAC41D /* RunningContext */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RunningContext;
+		};
+		3176707A2B6E4F79004367B5 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		319886C22B88ADAF00B5340A /* Fact */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Fact;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 312705F62B6D41A800E4B6DD /* Project object */;
 }
